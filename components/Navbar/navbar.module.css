@@ -1,0 +1,17 @@
+.navbarMenu {
+  margin: 0;
+  background-color: #333;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarMenu .itens {
+  display: flex;
+  gap: 20px;
+}
+.navbarMenu a {
+  color: white;
+  text-decoration: none;
+}

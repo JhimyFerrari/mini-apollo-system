@@ -1,0 +1,24 @@
+{
+  "name": "mini-apollo-system",
+  "version": "1.0.0",
+  "description": "Projeto antessor para o Apollo System",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky",
+    "commit": "cz"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^15.4.6",
+    "react": "^19.1.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7"
+  }
+}

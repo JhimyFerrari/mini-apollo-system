@@ -6,8 +6,7 @@ export default function Navbar() {
       <div>Apollo System</div>
       <div className={styles.itens}>
         <Link href="/">Home</Link>
-        <Link href="/Produtos">Produtos</Link>
-        <Link href="/Usuarios">Usuário</Link>
+        <Link href="/users">Usuário</Link>
       </div>
     </nav>
   );

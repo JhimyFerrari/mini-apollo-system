@@ -1,0 +1,183 @@
+/* users.module.css */
+
+.container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.tableContainer {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+.userTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.userTable th,
+.userTable td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.userTable thead {
+  background-color: #f5f5f5;
+}
+
+.userTable th {
+  font-weight: bold;
+  color: #333;
+}
+
+.userTable tr:hover {
+  background-color: #f9f9f9;
+}
+
+.actionsCell {
+  display: flex;
+  gap: 8px;
+}
+
+.actionLink {
+  display: inline-block;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+}
+
+.actionLink:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.button {
+  background-color: #4caf50; /* verde suave */
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.button:hover {
+  background-color: #45a049; /* verde um pouco mais escuro */
+}
+
+.button:active {
+  transform: scale(0.97); /* leve efeito de clique */
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.linkContainer {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button:active {
+  transform: scale(0.97);
+}
+
+.buttonSecondary {
+  background-color: #0070f3; /* azul para diferenciar */
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.buttonSecondary:hover {
+  background-color: #005bb5;
+}
+
+.buttonSecondary:active {
+  transform: scale(0.97);
+}
+.actionsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.buttonSecondary {
+  background-color: #0070f3;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.buttonSecondary:hover {
+  background-color: #005bb5;
+}
+
+.buttonSecondary:active {
+  transform: scale(0.97);
+}
+
+.emptyRow {
+  text-align: center;
+  color: #777;
+  padding: 20px;
+  font-style: italic;
+}
